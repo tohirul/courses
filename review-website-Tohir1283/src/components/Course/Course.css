@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  top: 86px;
+  bottom: 175px;
+}
+
+.course {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+
+  padding: 18px;
+  z-index: 1;
+
+  margin-bottom: 9rem;
+  margin-left: 25px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.courseImage {
+  width: 100%;
+  border: 1px solid yellow;
+  border-top-right-radius: 10px;
+}
+
+.mentorImage {
+  width: 40%;
+  border: 1px solid greenyellow;
+  border-radius: 70px;
+
+  position: relative;
+  left: 0;
+  bottom: 15%;
+}

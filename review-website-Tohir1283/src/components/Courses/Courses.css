@@ -1,0 +1,10 @@
+.cartContainer {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  z-index: 1;
+}
+.cart {
+  position: relative;
+  top: 86px;
+  bottom: 175px;
+}
